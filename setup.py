@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name="acme-tiny",
     use_scm_version=True,
-    url="https://github.com/diafygi/acme-tiny",
+    url="https://github.com/trackerby/acme-tiny",
     author="Daniel Roesler",
     author_email="diafygi@gmail.com",
     description="A tiny script to issue and renew TLS certs from Let's Encrypt",
