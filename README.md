@@ -3,8 +3,9 @@
 [![Tests](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml/badge.svg)](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml)
 [![Coverage Status](https://coveralls.io/repos/github/diafygi/acme-tiny/badge.svg?branch=master)](https://coveralls.io/github/diafygi/acme-tiny?branch=master)
 
-** 免费申请ssl证书的脚本很多，一眼能看到代码干净安全的就这个20220622 **
-** 最终没有选择这个的原因是该脚本不支持ecc **
+- 免费申请ssl证书的脚本很多，一眼能看到代码干净安全的就这个20220622
+- 最终没有选择这个的原因是该脚本不支持ecc
+- 最后选择的：https://github.com/acmesh-official/acme.sh/blob/master/acme.sh[单文件，结构不负责，代码大致过了一遍，没什么问题]
 
 This is a tiny, auditable script that you can throw on your server to issue
 and renew [Let's Encrypt](https://letsencrypt.org/) certificates. Since it has
